@@ -1,5 +1,5 @@
 .projects {
-  padding: 64px 16px 0;
+  padding: 64px 16px 88px;
 
   &__description {
     font-weight: 300;
@@ -54,16 +54,16 @@
     color: $grayLight;
   }
 
-  &__link{
-      color: $linkConsole;
+  &__link {
+    color: $linkConsole;
   }
 
-  &__special{
-      color: #fff;
-      font-weight: 700;
+  &__special {
+    color: #fff;
+    font-weight: 700;
   }
 
-  &__title{
+  &__title {
     font-weight: 400;
     font-size: 13px;
     line-height: 24px;
