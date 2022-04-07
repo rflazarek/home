@@ -93,31 +93,39 @@
 
       <section class="projects" id="projects">
         <h2 class="projects__header">Recent projects</h2>
-        <p class="project__description">
+        <p class="projects__description">
           I started my frontend developer path in 2003. Since then, I’ve built
           some projects. Here’s the list of the things I’ve done so far.
         </p>
         <div class="project-grid">
           <article class="project">
-            <h3 class="project__title">
-              <span>project:</span><span>podlaski git</span>
+            <div class="project__window">
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+            </div>
+            <div class="project__content">
+              <img src="../assets/img/github-white-icon.svg" alt="">
+            <h3 class="project__grid project__title">
+              <span class="project__label">project: </span><span class="project__special">podlaski git</span>
             </h3>
-            <p>
-              <span>description:</span>
+            <p class="project__grid">
+              <span class="project__label">description:</span>
               <span>podlaskie aliasy dla gitowych komend</span>
             </p>
-            <p>
-              <span>demo:</span>
+            <p class="project__grid">
+              <span class="project__label">demo:</span>
               <span>
-                &lt;<a href="#" title="podlaksie aliasy-demo">see_here</a>&gt;
+                &lt;<a class="project__link" href="#" title="podlaksie aliasy-demo">see_here</a>&gt;
               </span>
             </p>
-            <p>
-              <span>github:</span>
+            <p class="project__grid">
+              <span class="project__label">github:</span>
               <span>
-                &lt;<a href="#" title="podlaksie aliasy-git">source_code</a>&gt;
+                &lt;<a class="project__link" href="#" title="podlaksie aliasy-git">source_code</a>&gt;
               </span>
             </p>
+          </div>
           </article>
         </div>
       </section>
