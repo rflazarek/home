@@ -1,5 +1,8 @@
 .projects {
   padding: 64px 16px 88px;
+  @media (min-width: $desktop) {
+    padding: 64px 16px 176px;
+  }
 
   &__description {
     font-weight: 300;
@@ -20,6 +23,7 @@
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    margin: 0 0 40px ;
     color: $textDark;
     @media (min-width: $desktop) {
       font-size: 48px;
@@ -54,7 +58,7 @@
   &__content {
     padding: 24px 16px;
     @media (min-width: $desktop) {
-      padding: 24px 48px 82px;
+      padding: 18px 48px 58px;
     }
   }
 
