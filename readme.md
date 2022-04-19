@@ -1,4 +1,4 @@
-![cover](https://rflazarek.github.io/home/cover.png)
+![cover](https://rflazarek.github.io/home/public/cover.png)
 
 # Rafał Łazarek - JUNIOR FRONTEND DEVELOPER 
 
