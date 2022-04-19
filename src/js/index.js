@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-console.log("HELLO 🚀");
+console.log("Hi, I'm Rafał - nice to see you here ;)");
 
 fetch("https://api.github.com/users/rflazarek/repos?sort=created&direction=asc")
   .then((res) => res.json())
@@ -31,6 +31,8 @@ fetch("https://api.github.com/users/rflazarek/repos?sort=created&direction=asc")
             <span class="project__label">demo:</span>
             <span>
               &lt;<a
+                target="_blank"; 
+                rel="noopener noreferrer";
                 class="project__link"
                 href="${homepage}"
                 title="${name} - demo"
@@ -44,6 +46,8 @@ fetch("https://api.github.com/users/rflazarek/repos?sort=created&direction=asc")
               &lt;<a
                 class="project__link"
                 href="${html_url}"
+                target="_blank";
+                rel="noopener noreferrer";
                 title="${name} - git"
                 >source_code</a
               >&gt;
@@ -53,7 +57,7 @@ fetch("https://api.github.com/users/rflazarek/repos?sort=created&direction=asc")
       </article>`;
 
       //if (description) {
-        container.innerHTML += template;
+      container.innerHTML += template;
       //}
     }
   })
